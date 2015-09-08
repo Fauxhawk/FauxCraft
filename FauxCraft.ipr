@@ -169,6 +169,13 @@
       </item>
     </group>
   </component>
+  <component name="ProjectDictionaryState">
+    <dictionary name="Fauxh_000">
+      <words>
+        <w>faux</w>
+      </words>
+    </dictionary>
+  </component>
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/FauxCraft.iml" filepath="$PROJECT_DIR$/FauxCraft.iml" />

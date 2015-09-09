@@ -8,25 +8,6 @@ public class ServerProxy extends CommonProxy
         return null;
     }
 
-    @Override
-    public void initReneringAndTextures() {
 
-    }
-
-    @Override
-    public void registerEventHandlers() {
-
-    }
-
-    @Override
-    public void registerKeybindings() {
-
-    }
-
-    @Override
-    public void initRenderingAndTextures()
-    {
-
-    }
 
 }

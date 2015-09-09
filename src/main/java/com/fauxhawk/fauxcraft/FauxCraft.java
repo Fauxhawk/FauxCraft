@@ -1,7 +1,8 @@
 package com.fauxhawk.fauxcraft;
 
 import com.fauxhawk.fauxcraft.Reference.Messages;
-import com.fauxhawk.fauxcraft.proxy.IProxy;
+import com.fauxhawk.fauxcraft.init.ModItems;
+import com.fauxhawk.fauxcraft.proxy.CommonProxy;
 import com.fauxhawk.fauxcraft.util.LogHelper;
 import net.minecraftforge.fml.common.Mod;
 import com.fauxhawk.fauxcraft.Reference.Reference;
@@ -17,7 +18,7 @@ public class FauxCraft
     public static FauxCraft instance;
 
     @SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.SERVER_PROXY_CLASS)
-    public static IProxy proxy;
+    public static CommonProxy proxy;
 
     @Mod.EventHandler
     public void invalidFingerprint(FMLFingerprintViolationEvent event)
@@ -34,11 +35,14 @@ public class FauxCraft
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
+
+        ModItems.init();
+        ModItems.register();
     }
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
-
+        proxy.registerRenders();
     }
     @Mod.EventHandler
     public void postinit(FMLPostInitializationEvent event)

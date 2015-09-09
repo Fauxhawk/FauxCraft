@@ -1,6 +1,7 @@
 package com.fauxhawk.fauxcraft;
 
 import com.fauxhawk.fauxcraft.Reference.Messages;
+import com.fauxhawk.fauxcraft.init.ModBlocks;
 import com.fauxhawk.fauxcraft.init.ModItems;
 import com.fauxhawk.fauxcraft.proxy.CommonProxy;
 import com.fauxhawk.fauxcraft.util.LogHelper;
@@ -35,7 +36,8 @@ public class FauxCraft
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-
+        ModBlocks.init();
+        ModBlocks.register();
         ModItems.init();
         ModItems.register();
     }

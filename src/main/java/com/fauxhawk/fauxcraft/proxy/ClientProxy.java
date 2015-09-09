@@ -1,6 +1,7 @@
 package com.fauxhawk.fauxcraft.proxy;
 
 
+import com.fauxhawk.fauxcraft.init.ModBlocks;
 import com.fauxhawk.fauxcraft.init.ModItems;
 
 public class ClientProxy extends CommonProxy
@@ -8,6 +9,7 @@ public class ClientProxy extends CommonProxy
     @Override
     public void registerRenders()
     {
+        ModBlocks.registerRenders();
         ModItems.registerRenders();
     }
 

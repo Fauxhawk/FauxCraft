@@ -5,6 +5,4 @@ public interface IProxy
 {
     ClientProxy getClientProxy();
 
-
-
 }

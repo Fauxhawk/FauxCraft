@@ -1,4 +1,4 @@
-package com.fauxhawk.fauxcraft.proxy;
+package com.fauxhawk.fc.proxy;
 
 public abstract class CommonProxy implements IProxy
 {

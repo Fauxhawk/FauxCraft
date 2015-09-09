@@ -1,7 +1,7 @@
-package com.fauxhawk.fauxcraft.creativetab;
+package com.fauxhawk.fc.creativetab;
 
 
-import com.fauxhawk.fauxcraft.Reference.Reference;
+import com.fauxhawk.fc.Reference.Reference;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.*;
 

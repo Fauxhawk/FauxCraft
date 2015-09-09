@@ -1,8 +1,8 @@
-package com.fauxhawk.fauxcraft.proxy;
+package com.fauxhawk.fc.proxy;
 
 
-import com.fauxhawk.fauxcraft.init.ModBlocks;
-import com.fauxhawk.fauxcraft.init.ModItems;
+import com.fauxhawk.fc.init.ModBlocks;
+import com.fauxhawk.fc.init.ModItems;
 
 public class ClientProxy extends CommonProxy
 {

@@ -1,6 +1,6 @@
-package com.fauxhawk.fauxcraft.init;
+package com.fauxhawk.fc.init;
 
-import com.fauxhawk.fauxcraft.Reference.Reference;
+import com.fauxhawk.fc.Reference.Reference;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.item.Item;

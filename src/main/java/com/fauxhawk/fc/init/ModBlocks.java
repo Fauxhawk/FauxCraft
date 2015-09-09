@@ -1,7 +1,7 @@
-package com.fauxhawk.fauxcraft.init;
+package com.fauxhawk.fc.init;
 
-import com.fauxhawk.fauxcraft.Reference.Reference;
-import com.fauxhawk.fauxcraft.block.WoodenGearBox;
+import com.fauxhawk.fc.Reference.Reference;
+import com.fauxhawk.fc.block.BoxWoodenGear;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.Minecraft;
@@ -13,10 +13,7 @@ public class ModBlocks
 {
     public static Block WoodenGearBox;
 
-    public static void init()
-    {
-        WoodenGearBox = new WoodenGearBox(Material.wood).setUnlocalizedName("WoodenGearBox");
-    }
+    public static void init() {WoodenGearBox = new BoxWoodenGear(Material.wood).setUnlocalizedName("BoxWoodenGear");}
 
     public static void register()
     {
@@ -30,6 +27,7 @@ public class ModBlocks
     public static void registerRender(Block block)
     {
        Item item = Item.getItemFromBlock(block);
-        Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(Reference.LOWERCASEMODID + ":" + block.getUnlocalizedName().substring(5), "inventory"));
+        Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(item, 0, new ModelResourceLocation(Reference.LOWERCASEMODID + ":" + "BoxWoodenGear" , "inventory"));
+
     }
 }

@@ -1,12 +1,12 @@
-package com.fauxhawk.fauxcraft;
+package com.fauxhawk.fc;
 
-import com.fauxhawk.fauxcraft.Reference.Messages;
-import com.fauxhawk.fauxcraft.init.ModBlocks;
-import com.fauxhawk.fauxcraft.init.ModItems;
-import com.fauxhawk.fauxcraft.proxy.CommonProxy;
-import com.fauxhawk.fauxcraft.util.LogHelper;
+import com.fauxhawk.fc.Reference.Messages;
+import com.fauxhawk.fc.init.ModBlocks;
+import com.fauxhawk.fc.init.ModItems;
+import com.fauxhawk.fc.proxy.CommonProxy;
+import com.fauxhawk.fc.util.LogHelper;
 import net.minecraftforge.fml.common.Mod;
-import com.fauxhawk.fauxcraft.Reference.Reference;
+import com.fauxhawk.fc.Reference.Reference;
 import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.*;
 

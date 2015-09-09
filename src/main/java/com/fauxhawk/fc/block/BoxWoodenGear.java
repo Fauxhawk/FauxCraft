@@ -11,6 +11,7 @@ public class BoxWoodenGear extends Block
     public BoxWoodenGear(Material materialIn)
     {
         super(materialIn);
+        this.isTranslucent();
         this.isOpaqueCube();
     }
 }

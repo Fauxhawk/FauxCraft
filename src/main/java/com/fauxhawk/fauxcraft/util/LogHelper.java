@@ -1,6 +1,6 @@
-package com.fauxhawk.fc.util;
+package com.fauxhawk.fauxcraft.util;
 
-import com.fauxhawk.fc.Reference.Reference;
+import com.fauxhawk.fauxcraft.Reference.Reference;
 import net.minecraftforge.fml.common.FMLLog;
 import org.apache.logging.log4j.Level;
 

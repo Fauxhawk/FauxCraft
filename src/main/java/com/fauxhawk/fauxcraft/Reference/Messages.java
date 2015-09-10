@@ -1,4 +1,4 @@
-package com.fauxhawk.fc.Reference;
+package com.fauxhawk.fauxcraft.Reference;
 
 
 public class Messages

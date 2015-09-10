@@ -1,12 +1,15 @@
-package com.fauxhawk.fc;
+package com.fauxhawk.fauxcraft;
 
-import com.fauxhawk.fc.Reference.Messages;
-import com.fauxhawk.fc.proxy.CommonProxy;
-import com.fauxhawk.fc.util.LogHelper;
+import com.fauxhawk.fauxcraft.Reference.Messages;
+import com.fauxhawk.fauxcraft.Reference.Reference;
+import com.fauxhawk.fauxcraft.proxy.CommonProxy;
+import com.fauxhawk.fauxcraft.util.LogHelper;
 import net.minecraftforge.fml.common.Mod;
-import com.fauxhawk.fc.Reference.Reference;
 import net.minecraftforge.fml.common.SidedProxy;
-import net.minecraftforge.fml.common.event.*;
+import net.minecraftforge.fml.common.event.FMLFingerprintViolationEvent;
+import net.minecraftforge.fml.common.event.FMLInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
+import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
 @Mod(modid=Reference.MODID, name=Reference.NAME, version=Reference.VERSION, certificateFingerprint = Reference.FINGERPRINT, dependencies = Reference.DEPENDENCIES, guiFactory = Reference.GUI_FACTORY_CLASS)
 

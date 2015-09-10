@@ -1,4 +1,4 @@
-package com.fauxhawk.fc.proxy;
+package com.fauxhawk.fauxcraft.proxy;
 
 
 public class ClientProxy extends CommonProxy

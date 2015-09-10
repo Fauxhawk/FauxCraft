@@ -3,17 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ebfae39f-2a3f-49cc-a42c-3937f0cbb8fe" name="Default" comment="Update #004">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FauxCraft.iws" afterPath="$PROJECT_DIR$/FauxCraft.iws" />
-      <change type="MOVED" beforePath="E:\Minecraft\1.8\FauxCraft\src\main\java\com\fauxhawk\fc\FauxCraft.java" afterPath="$PROJECT_DIR$/src/main/java/com/fauxhawk/fauxcraft/FauxCraft.java" />
-      <change type="MOVED" beforePath="E:\Minecraft\1.8\FauxCraft\src\main\java\com\fauxhawk\fc\Reference\Messages.java" afterPath="$PROJECT_DIR$/src/main/java/com/fauxhawk/fauxcraft/Reference/Messages.java" />
-      <change type="MOVED" beforePath="E:\Minecraft\1.8\FauxCraft\src\main\java\com\fauxhawk\fc\Reference\Names.java" afterPath="$PROJECT_DIR$/src/main/java/com/fauxhawk/fauxcraft/Reference/Names.java" />
-      <change type="MOVED" beforePath="E:\Minecraft\1.8\FauxCraft\src\main\java\com\fauxhawk\fc\Reference\Reference.java" afterPath="$PROJECT_DIR$/src/main/java/com/fauxhawk/fauxcraft/Reference/Reference.java" />
-      <change type="MOVED" beforePath="E:\Minecraft\1.8\FauxCraft\src\main\java\com\fauxhawk\fc\Reference\Textures.java" afterPath="$PROJECT_DIR$/src/main/java/com/fauxhawk/fauxcraft/Reference/Textures.java" />
-      <change type="MOVED" beforePath="E:\Minecraft\1.8\FauxCraft\src\main\java\com\fauxhawk\fc\creativetab\CreativeTab.java" afterPath="$PROJECT_DIR$/src/main/java/com/fauxhawk/fauxcraft/creativetab/CreativeTab.java" />
-      <change type="MOVED" beforePath="E:\Minecraft\1.8\FauxCraft\src\main\java\com\fauxhawk\fc\proxy\ClientProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/fauxhawk/fauxcraft/proxy/ClientProxy.java" />
-      <change type="MOVED" beforePath="E:\Minecraft\1.8\FauxCraft\src\main\java\com\fauxhawk\fc\proxy\CommonProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/fauxhawk/fauxcraft/proxy/CommonProxy.java" />
-      <change type="MOVED" beforePath="E:\Minecraft\1.8\FauxCraft\src\main\java\com\fauxhawk\fc\proxy\IProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/fauxhawk/fauxcraft/proxy/IProxy.java" />
-      <change type="MOVED" beforePath="E:\Minecraft\1.8\FauxCraft\src\main\java\com\fauxhawk\fc\proxy\ServerProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/fauxhawk/fauxcraft/proxy/ServerProxy.java" />
-      <change type="MOVED" beforePath="E:\Minecraft\1.8\FauxCraft\src\main\java\com\fauxhawk\fc\util\LogHelper.java" afterPath="$PROJECT_DIR$/src/main/java/com/fauxhawk/fauxcraft/util/LogHelper.java" />
     </list>
     <ignored path="FauxCraft.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,11 +72,11 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fauxhawk/fauxcraft/FauxCraft.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.6640625">
-              <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+              <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1325#1326#0" expanded="true" />
-                <element signature="e#1364#1365#0" expanded="true" />
+                <element signature="e#1560#1561#0" expanded="true" />
+                <element signature="e#1599#1600#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1267,7 +1256,13 @@
       <option name="project" value="LOCAL" />
       <updated>1441857926112</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Update #004">
+      <created>1441857984913</created>
+      <option name="number" value="00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1441857984913</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1354,8 +1349,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1325#1326#0" expanded="true" />
-            <element signature="e#1364#1365#0" expanded="true" />
+            <element signature="e#1560#1561#0" expanded="true" />
+            <element signature="e#1599#1600#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1406,8 +1401,8 @@
           <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1325#1326#0" expanded="true" />
-            <element signature="e#1364#1365#0" expanded="true" />
+            <element signature="e#1560#1561#0" expanded="true" />
+            <element signature="e#1599#1600#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1442,8 +1437,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1325#1326#0" expanded="true" />
-            <element signature="e#1364#1365#0" expanded="true" />
+            <element signature="e#1560#1561#0" expanded="true" />
+            <element signature="e#1599#1600#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1610,11 +1605,11 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fauxhawk/fauxcraft/FauxCraft.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6640625">
-          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+          <caret line="38" column="4" selection-start-line="38" selection-start-column="4" selection-end-line="38" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1325#1326#0" expanded="true" />
-            <element signature="e#1364#1365#0" expanded="true" />
+            <element signature="e#1560#1561#0" expanded="true" />
+            <element signature="e#1599#1600#0" expanded="true" />
           </folding>
         </state>
       </provider>

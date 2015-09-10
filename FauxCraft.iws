@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebfae39f-2a3f-49cc-a42c-3937f0cbb8fe" name="Default" comment="">
-      <change type="DELETED" beforePath="E:\Minecraft\1.8\FauxCraft\src\main\java\com\fauxhawk\fc\block\BoxWoodenGear.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\Minecraft\1.8\FauxCraft\src\main\java\com\fauxhawk\fc\init\ModBlocks.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\Minecraft\1.8\FauxCraft\src\main\java\com\fauxhawk\fc\init\ModItems.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\Minecraft\1.8\FauxCraft\src\main\java\com\fauxhawk\fc\item\ItemFauxCraft.java" afterPath="" />
-      <change type="DELETED" beforePath="E:\Minecraft\1.8\FauxCraft\src\main\java\resources\assets\fc\blockstates\WoodenGearBox.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\Minecraft\1.8\FauxCraft\src\main\java\resources\assets\fc\models\blocks\Iron.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Minecraft\1.8\FauxCraft\src\main\java\resources\assets\fc\models\blocks\OakWood(rotated).png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Minecraft\1.8\FauxCraft\src\main\java\resources\assets\fc\models\blocks\OakWood.png" afterPath="" />
-      <change type="DELETED" beforePath="E:\Minecraft\1.8\FauxCraft\src\main\java\resources\assets\fc\models\blocks\WoodenGearBox.json" afterPath="" />
-      <change type="DELETED" beforePath="E:\Minecraft\1.8\FauxCraft\src\main\java\resources\assets\fc\models\items\WoodenGearBox.json" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fauxhawk/fc/proxy/ClientProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/fauxhawk/fc/proxy/ClientProxy.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FauxCraft.iws" afterPath="$PROJECT_DIR$/FauxCraft.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/fauxhawk/fc/FauxCraft.java" afterPath="$PROJECT_DIR$/src/main/java/com/fauxhawk/fc/FauxCraft.java" />
     </list>
     <ignored path="FauxCraft.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,7 +71,7 @@
       <file leaf-file-name="FauxCraft.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/fauxhawk/fc/FauxCraft.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0320405">
+            <state vertical-scroll-proportion="1.0337838">
               <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -157,7 +145,10 @@
         <option value="FauxHawk" />
       </list>
     </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="FORCE_PUSH_ALLOWED" value="true" />
     <option name="PUSH_TAGS">
       <GitPushTagMode />
     </option>
@@ -874,7 +865,7 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="FullScreen" value="false" />
@@ -1230,7 +1221,13 @@
       <option name="project" value="LOCAL" />
       <updated>1441832730075</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Update #007&#10;">
+      <created>1441857120161</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1441857120161</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1249,8 +1246,9 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32864866" sideWeight="0.50208336" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32900432" sideWeight="0.50208336" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1268,7 +1266,6 @@
       <window_info id="Palette " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1453,6 +1450,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2959739">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1561,7 +1559,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/fauxhawk/fc/FauxCraft.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0320405">
+        <state vertical-scroll-proportion="1.0337838">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />

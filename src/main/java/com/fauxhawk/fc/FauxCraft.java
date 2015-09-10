@@ -1,8 +1,6 @@
 package com.fauxhawk.fc;
 
 import com.fauxhawk.fc.Reference.Messages;
-import com.fauxhawk.fc.init.ModBlocks;
-import com.fauxhawk.fc.init.ModItems;
 import com.fauxhawk.fc.proxy.CommonProxy;
 import com.fauxhawk.fc.util.LogHelper;
 import net.minecraftforge.fml.common.Mod;
@@ -36,10 +34,7 @@ public class FauxCraft
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-        ModBlocks.init();
-        ModBlocks.register();
-        ModItems.init();
-        ModItems.register();
+
     }
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
